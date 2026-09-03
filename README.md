@@ -14,9 +14,9 @@ This project extracts customer, subscription, and support data from a SQLite dat
 ## Data Source
 
 The dataset is stored in a SQLite database (`customer_churn.db`) with three tables:
-- `db_customer` — customer demographic and contact information
-- `db_subscription` — subscription plan, contract type, billing, and cancellation details
-- `db_support` — customer complaints, escalations, and satisfaction scores
+- `db_customer` - customer demographic and contact information
+- `db_subscription` - subscription plan, contract type, billing, and cancellation details
+- `db_support` - customer complaints, escalations, and satisfaction scores
 
 ## What This Project Does
 
@@ -59,8 +59,8 @@ Connects to the SQLite database, dynamically reads all tables, and loads each in
 
 ## Files in This Repository
 
-- `Churn_analysis.ipynb` — main analysis notebook
-- `customer_churn.db` — SQLite database used as the data source
+- `Churn_analysis.ipynb` - main analysis notebook
+- `customer_churn.db` - SQLite database used as the data source
 - `exported_churn_data.csv` — cleaned and merged dataset exported from the notebook
 
 ## How to Run
